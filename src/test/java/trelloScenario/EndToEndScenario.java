@@ -1,17 +1,12 @@
 package trelloScenario;
 
-
-
 import java.io.IOException;
-
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import com.trello.qsp.genericutility.BaseClass;
 import com.trello.qsp.genericutility.ListenerClass;
 import com.trello.qsp.pomrepo.TrelloBoardsPage;
 import com.trello.qsp.pomrepo.TrelloCreatedBoardPage;
-
 
 @Listeners(ListenerClass.class)
 

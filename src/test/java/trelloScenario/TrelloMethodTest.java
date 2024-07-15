@@ -14,8 +14,6 @@ public class TrelloMethodTest extends BaseClass{
   public void createSimpleProject() {
 	  TrelloBoardsPage boardspage=new TrelloBoardsPage(driver);
 	  TrelloCreatedBoardPage createdboardpage=new  TrelloCreatedBoardPage(driver);
-	  
-	  
 	  boardspage.getTemplateButton().click();
 	  boardspage.getSimpleprojectboardoption().click();
 	  boardspage.getCreatebutton().click();

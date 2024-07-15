@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.vtiger.com/vtigercrm/"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="toReadDataFromExternalSource.ReadDataFromXMLfile_SuiteFile">
+        <methods>
+          <include name="loginToVtiger4"/>
+          <include name="loginToVtiger3"/>
+          <include name="loginToVtiger2"/>
+          <include name="loginToVtiger1"/>
+          <include name="loginToVtiger5"/>
+        </methods>
+      </class> <!-- toReadDataFromExternalSource.ReadDataFromXMLfile_SuiteFile -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://demo.vtiger.com/vtigercrm/"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="toReadDataFromExternalSource.ReadDataFromXMLfile_SuiteFile">
+        <methods>
+          <include name="loginToVtiger4"/>
+          <include name="loginToVtiger3"/>
+          <include name="loginToVtiger2"/>
+          <include name="loginToVtiger1"/>
+          <include name="loginToVtiger5"/>
+        </methods>
+      </class> <!-- toReadDataFromExternalSource.ReadDataFromXMLfile_SuiteFile -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -17,9 +17,6 @@ public class EndToEndScenario extends BaseClass {
 		
 		TrelloBoardsPage boardspage=new TrelloBoardsPage(driver);
 		TrelloCreatedBoardPage createboardpage=new TrelloCreatedBoardPage(driver);
-		/*
-		Dont touch this line
-		*/
 		boardspage.getCreateoption().click();
 		boardspage.getCreateboardoption().click();
 		boardspage.getBoardtitletextfield().sendKeys(fileutils.readTheDataFromPropertyFile("title"));
